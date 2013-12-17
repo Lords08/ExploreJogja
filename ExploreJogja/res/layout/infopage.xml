@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >  
+	     <ImageView
+	        android:id="@+id/idGambarInfo"
+	        android:layout_width="match_parent"
+	        android:layout_height="180dp"
+	        android:layout_gravity="center_horizontal"
+	        android:scaleType="fitXY"
+	        android:src="@drawable/grandaston"/>
+	     <ScrollView
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:fillViewport="true"
+		    android:orientation="vertical" >
+		    <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:orientation="vertical">
+		    <TextView
+		        android:id="@+id/idJudulInfo"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="left"
+		        android:layout_marginTop="5dp"
+		        android:layout_marginBottom="10dp"
+		        android:layout_marginLeft="15dp"
+		        android:textStyle="bold"
+		        android:textAppearance="?android:attr/textAppearanceMedium" />	    
+		    <LinearLayout
+		        android:layout_gravity="left"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content">
+		        <TextView
+			        android:id="@+id/TextView7"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="15dp"
+			        android:text="Alamat : "
+			        android:textAppearance="?android:attr/textAppearanceSmall" />
+		         <TextView
+			        android:id="@+id/idAlamat"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textAppearance="?android:attr/textAppearanceSmall" />
+		    </LinearLayout>
+		    <LinearLayout
+		        android:layout_gravity="left"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content">
+		        <TextView
+			        android:id="@+id/TextView1"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="15dp"
+			        android:text="Fasilitas : "
+			        android:textAppearance="?android:attr/textAppearanceSmall" />
+		         <TextView
+			        android:id="@+id/idFasilitas"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textAppearance="?android:attr/textAppearanceSmall" />
+		    </LinearLayout>
+		    <LinearLayout
+		        android:layout_gravity="left"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content">
+		        <TextView
+			        android:id="@+id/TextView3"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="15dp"
+			        android:text="Price Range : "
+			        android:textAppearance="?android:attr/textAppearanceSmall" />
+		         <TextView
+			        android:id="@+id/idPrice"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textAppearance="?android:attr/textAppearanceSmall" />
+		    </LinearLayout>
+		    <LinearLayout
+		        android:layout_gravity="left"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content">
+		        <TextView
+			        android:id="@+id/TextView4"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="15dp"
+			        android:text="Opening Hours : "
+			        android:textAppearance="?android:attr/textAppearanceSmall" />
+		         <TextView
+			        android:id="@+id/idOpening"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textAppearance="?android:attr/textAppearanceSmall" />
+		    </LinearLayout>
+		    <LinearLayout
+		        android:layout_gravity="left"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content">
+		        <TextView
+			        android:id="@+id/TextView5"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="15dp"
+			        android:text="Review : "
+			        android:textAppearance="?android:attr/textAppearanceSmall" />
+		         <TextView
+			        android:id="@+id/idReview"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textAppearance="?android:attr/textAppearanceSmall" />
+		    </LinearLayout>
+		    <LinearLayout
+		        android:layout_gravity="left"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content">
+		        <TextView
+			        android:id="@+id/TextView6"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="15dp"
+			        android:text="Koordinat : "
+			        android:textAppearance="?android:attr/textAppearanceSmall" />
+		         <TextView
+			        android:id="@+id/idMap"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textAppearance="?android:attr/textAppearanceSmall" />
+		    </LinearLayout>
+		    <LinearLayout
+		        android:layout_gravity="left"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content">
+		        <TextView
+			        android:id="@+id/TextView8"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="15dp"
+			        android:text="Kabupaten : "
+			        android:textAppearance="?android:attr/textAppearanceSmall" />
+		         <TextView
+			        android:id="@+id/idKabupaten"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textAppearance="?android:attr/textAppearanceSmall" />
+		    </LinearLayout>
+		    <LinearLayout
+		        android:layout_gravity="left"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content">
+		        <TextView
+			        android:id="@+id/TextView9"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="15dp"
+			        android:text="Tipe : "
+			        android:textAppearance="?android:attr/textAppearanceSmall" />
+		         <TextView
+			        android:id="@+id/idTipe"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textAppearance="?android:attr/textAppearanceSmall" />
+		    </LinearLayout>
+		    <LinearLayout
+		        android:layout_gravity="left"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content">
+		        <TextView
+			        android:id="@+id/TextView10"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="15dp"
+			        android:text="Subtipe : "
+			        android:textAppearance="?android:attr/textAppearanceSmall" />
+		         <TextView
+			        android:id="@+id/idSubtipe"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textAppearance="?android:attr/textAppearanceSmall" />
+		    </LinearLayout>
+		    <LinearLayout
+		        android:layout_gravity="left"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content">
+		        <TextView
+			        android:id="@+id/TextView2"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_marginLeft="15dp"
+			        android:text="Contact : "
+			        android:textAppearance="?android:attr/textAppearanceSmall" />
+		         <TextView
+			        android:id="@+id/idKontak"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:textAppearance="?android:attr/textAppearanceSmall" />
+		    </LinearLayout>
+		    
+		    </LinearLayout>
+	</ScrollView> 
+</LinearLayout>

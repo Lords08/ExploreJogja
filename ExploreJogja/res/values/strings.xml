@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ExploreJogja</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_hotel_activity_page">HotelActivityPage</string>
+    <string name="title_activity_details_page">DetailsPage</string>
+    <string name="title_section1">Section 1</string>
+    <string name="title_section2">Section 2</string>
+    <string name="title_section3">Section 3</string>
+    <string name="title_activity_hotel_selection_page">HotelSelectionPage</string>
+    <string name="title_activity_destination_activity_page">DestinationActivityPage</string>
+    <string name="title_activity_food_drink_page">FoodDrinkPage</string>
+    <string name="title_activity_detals_page">DetalsPage</string>
+    <string name="title_activity_events_page">EventsPage</string>
+    <string name="title_activity_event_detail">EventDetail</string>
+
+</resources>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nightlogin.explorejogja"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="15" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.nightlogin.explorejogja.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nightlogin.explorejogja.HotelActivityPage"
+            android:label="@string/title_activity_hotel_activity_page" >
+        </activity>
+        <activity
+            android:name="com.nightlogin.explorejogja.HotelSelectionPage"
+            android:label="@string/title_activity_hotel_selection_page" >
+        </activity>
+        <activity
+            android:name="com.nightlogin.explorejogja.DestinationActivityPage"
+            android:label="@string/title_activity_destination_activity_page" >
+        </activity>
+        <activity
+            android:name="com.nightlogin.explorejogja.FoodDrinkPage"
+            android:label="@string/title_activity_food_drink_page" >
+        </activity>
+        <activity
+            android:name="com.nightlogin.explorejogja.DetalsPage"
+            android:label="@string/title_activity_detals_page" >
+        </activity>
+        <activity
+            android:name="com.nightlogin.explorejogja.EventsPage"
+            android:label="@string/title_activity_events_page" >
+        </activity>
+        <activity
+            android:name="com.nightlogin.explorejogja.EventDetail"
+            android:label="@string/title_activity_event_detail" >
+        </activity>
+    </application>
+
+    <uses-permission android:name="android.permission.INTERNET" >
+    </uses-permission>
+
+</manifest>

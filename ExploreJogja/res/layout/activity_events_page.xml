@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".EventsPage" >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="150dp" 
+        >
+
+        <ImageView
+            android:id="@+id/EventCover"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitXY"
+            android:src="@drawable/events" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="28dp"
+            android:fontFamily="sans-serif"
+            android:text="EVENTS"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:textSize="27sp" />
+    </RelativeLayout>
+    <ListView
+        android:id="@+id/ListEvents"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        />
+</LinearLayout>

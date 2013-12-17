@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/HotelLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/HotelImage"
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/ambarrukmo" 
+        />
+
+    <TextView
+        android:id="@+id/HotelName"
+        android:layout_width="fill_parent"
+        android:fontFamily="sans-serif"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/HotelImage"
+        android:layout_alignParentLeft="true"
+        android:textColor="#FFFFFF"
+        android:layout_marginLeft="10dp"
+        android:text="Ambarukmo" />
+
+</RelativeLayout>

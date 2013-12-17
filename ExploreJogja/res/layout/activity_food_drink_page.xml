@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".FoodDrinkPage" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="200dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/fooddrinks1" />
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <ImageButton
+            android:layout_gravity="center_horizontal"
+            android:layout_width="160dp"
+            android:layout_height="130dp"
+            android:scaleType="fitXY"
+            android:onClick="imgCafeClk"
+            android:src="@drawable/cafe1">
+        </ImageButton>
+        <ImageButton
+            android:layout_gravity="center_horizontal"
+            android:layout_width="160dp"
+            android:layout_height="130dp"
+            android:scaleType="fitXY"
+            android:onClick="imgRestoClk"
+            android:src="@drawable/restaurant1">
+        </ImageButton>
+    </LinearLayout>
+    <LinearLayout 
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <ImageButton
+            android:layout_gravity="center_horizontal"
+            android:layout_width="160dp"
+            android:layout_height="130dp"
+            android:scaleType="fitXY"
+            android:onClick="imgBakeryClk"
+            android:src="@drawable/bakery1">
+        </ImageButton>
+        <ImageButton
+           android:layout_gravity="center_horizontal"
+            android:layout_width="160dp"
+            android:layout_height="130dp"
+            android:scaleType="fitXY"
+            android:onClick="imgBarClk"
+            android:src="@drawable/bar1" >
+        </ImageButton>
+    </LinearLayout>
+</LinearLayout>
